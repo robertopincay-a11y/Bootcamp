@@ -25,19 +25,23 @@
 
   --Count
   select count(*) as Total_customers from SalesLT.Customer
+  select * from SalesLT.Customer
 
   select SUM(TotalDue) as Total_ventas from SalesLT.SalesOrderHeader  
 
-  --Group
+  --Group by
   select ProductCategoryID, COUNT(ProductCategoryID) as Cantidad 
   from SalesLT.Product
   GROUP BY ProductCategoryID
   ORDER BY ProductCategoryID
  
+ --Join
  select * from SalesLT.Product p
- inner join SalesLT.ProductCategory pc
-    on p.ProductCategoryID = pc.ProductCategoryID 
+ inner join SalesLT.ProductCategory g
+    on p.ProductCategoryID = g.ProductCategoryID 
     
+
+
 
 --Ejercicio en Clase
 

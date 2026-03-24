@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "27FDZyQoCyk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\ConsoleCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rober\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}
