@@ -1,0 +1,12 @@
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\bin\Debug\net9.0\SpotifyClone.Shared.deps.json
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\bin\Debug\net9.0\SpotifyClone.Shared.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\bin\Debug\net9.0\SpotifyClone.Shared.pdb
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\obj\Debug\net9.0\SpotifyClone.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\obj\Debug\net9.0\SpotifyClone.Shared.AssemblyInfoInputs.cache
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\obj\Debug\net9.0\SpotifyClone.Shared.AssemblyInfo.cs
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\obj\Debug\net9.0\SpotifyClone.Shared.csproj.CoreCompileInputs.cache
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\obj\Debug\net9.0\SpotifyClone.Shared.sourcelink.json
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\obj\Debug\net9.0\SpotifyClone.Shared.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\obj\Debug\net9.0\refint\SpotifyClone.Shared.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\obj\Debug\net9.0\SpotifyClone.Shared.pdb
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Shared\obj\Debug\net9.0\ref\SpotifyClone.Shared.dll

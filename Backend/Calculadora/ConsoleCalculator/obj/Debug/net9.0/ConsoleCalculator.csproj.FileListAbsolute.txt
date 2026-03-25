@@ -1,0 +1,15 @@
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\bin\Debug\net9.0\ConsoleCalculator.exe
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\bin\Debug\net9.0\ConsoleCalculator.deps.json
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\bin\Debug\net9.0\ConsoleCalculator.runtimeconfig.json
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\bin\Debug\net9.0\ConsoleCalculator.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\bin\Debug\net9.0\ConsoleCalculator.pdb
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\obj\Debug\net9.0\ConsoleCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\obj\Debug\net9.0\ConsoleCalculator.AssemblyInfoInputs.cache
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\obj\Debug\net9.0\ConsoleCalculator.AssemblyInfo.cs
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\obj\Debug\net9.0\ConsoleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\obj\Debug\net9.0\ConsoleCalculator.sourcelink.json
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\obj\Debug\net9.0\ConsoleCalculator.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\obj\Debug\net9.0\refint\ConsoleCalculator.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\obj\Debug\net9.0\ConsoleCalculator.pdb
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\obj\Debug\net9.0\ConsoleCalculator.genruntimeconfig.cache
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\Calculadora\ConsoleCalculator\obj\Debug\net9.0\ref\ConsoleCalculator.dll

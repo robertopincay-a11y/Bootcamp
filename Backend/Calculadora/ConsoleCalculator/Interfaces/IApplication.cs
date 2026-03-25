@@ -3,7 +3,7 @@
     public interface IApplication
     {
         void Start();
-        void Calcular();
+        public double Calcular(int opcion);
         void ShowMessage(string message);
         string ShowQuestion(string question);
 

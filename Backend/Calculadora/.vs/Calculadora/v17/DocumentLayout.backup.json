@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\calculadora\\consolecalculator\\classes\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|solutionrelative:consolecalculator\\classes\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\calculadora\\consolecalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|solutionrelative:consolecalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\calculadora\\consolecalculator\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|solutionrelative:consolecalculator\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\calculadora\\consolecalculator\\models\\opcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|solutionrelative:consolecalculator\\models\\opcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 27,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,6 +123,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:138:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleCalculator\\Program.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Program.cs",
+              "RelativeToolTip": "ConsoleCalculator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T00:57:08.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Opcion.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Models\\Opcion.cs",
+              "RelativeDocumentMoniker": "ConsoleCalculator\\Models\\Opcion.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Models\\Opcion.cs",
+              "RelativeToolTip": "ConsoleCalculator\\Models\\Opcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:51:09.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IApplication.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Interfaces\\IApplication.cs",
+              "RelativeDocumentMoniker": "ConsoleCalculator\\Interfaces\\IApplication.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Interfaces\\IApplication.cs",
+              "RelativeToolTip": "ConsoleCalculator\\Interfaces\\IApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T17:11:36.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Classes\\Application.cs",
+              "RelativeDocumentMoniker": "ConsoleCalculator\\Classes\\Application.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Classes\\Application.cs",
+              "RelativeToolTip": "ConsoleCalculator\\Classes\\Application.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T17:10:01.405Z",
+              "EditorCaption": ""
             }
           ]
         }

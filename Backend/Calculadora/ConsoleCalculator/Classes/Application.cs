@@ -1,7 +1,5 @@
 ﻿using ConsoleCalculator.Interfaces;
 using ConsoleCalculator.Models;
-using System.Drawing;
-using System.Windows.Input;
 
 namespace ConsoleCalculator.Classes
 {
@@ -11,46 +9,66 @@ namespace ConsoleCalculator.Classes
 
         private void InitMenu()
         {
-            _opciones.Add(new Opcion() { 
-                Id=1,
-                Description="Suma",
-                Usage="<addition>",
-                Return = "Resultado:<addition>"
+            _opciones.Add(new Opcion()
+            {
+                Id = 1,
+                Description = "Suma"
+
             }
             );
             _opciones.Add(new Opcion()
             {
-                Id = 1,
-                Description = "Resta",
-                Usage = "<subtraction>",
-                Return = "Resultado:<subtraction>"
+                Id = 2,
+                Description = "Resta"
+
             }
            );
             _opciones.Add(new Opcion()
             {
-                Id = 1,
-                Description = "Multiplicacion",
-                Usage = "<multiplication>",
-                Return = "Resultado:<multiplication>"
+                Id = 3,
+                Description = "Multiplicacion"
+
             }
            );
             _opciones.Add(new Opcion()
             {
-                Id = 1,
-                Description = "Division",
-                Usage = "<division>",
-                Return = "Resultado:<division>"
+                Id = 4,
+                Description = "Division"
+
             }
            );
         }
-        public void Calcular()
+        public double Calcular(int opcion)
         {
-            throw new NotImplementedException();
+            Console.Write("Ingrese el primer numero: ");
+            double num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+            Console.Write("Ingresa el segundo numero: ");
+            double num2 = Convert.ToInt32(Console.ReadLine());
+            double resultado = 0;
+
+            switch (opcion)
+            {
+                case 1:
+                    resultado = num1 + num2;
+                    break;
+                case 2:
+                    resultado = num1 - num2;
+                    break;
+                case 3:
+                    resultado = num1 * num2;
+                    break;
+                case 4:
+                    resultado = num1 / num2;
+                    break;
+
+            }
+            return resultado;
         }
 
         public void ShowMessage(string message)
         {
-            Console.WriteLine($"Message: {message}");
+            Console.WriteLine($"{message}");
         }
         public string ShowQuestion(string question)
         {
@@ -67,8 +85,8 @@ namespace ConsoleCalculator.Classes
 
                 ---------------------------------
 
-                Comandos:
-                {string.Join("\n", _opciones.Select((cmd) => $"{cmd.Id}. {cmd.Description}\n{cmd.Usage}\n{cmd.Return}"))}
+                Menu:
+                {string.Join("\n", _opciones.Select((cmd) => $"{cmd.Id}. {cmd.Description}"))}
 
                 ---------------------------------
                 """;
@@ -79,17 +97,31 @@ namespace ConsoleCalculator.Classes
             InitMenu();
             while (true)
             {
+                ShowHelp();
                 try
                 {
                     var inputId = Convert.ToInt32(ShowQuestion("Seleccione una opción: "));
-                    var argumento = ShowQuestion("");
 
-                    if (string.IsNullOrEmpty(argumento)) {
-                        throw new ArgumentNullException();
+                    var findOption = _opciones.Where((cmd) => cmd.Id == inputId).FirstOrDefault();
+
+                    if (findOption is null)
+                    {
+                        throw new Exception("Opcion no encontrada");
+                    }
+
+                    if (findOption.Id == inputId)
+                    {
+                        var resultado = Calcular(inputId);
+                        Console.WriteLine("El resultado es: " + resultado);
+
                     }
 
 
+                }
 
+                catch (FormatException)
+                {
+                    ShowMessage("No está utilizando un formato adecuado. Agrege una opción correcta");
                 }
                 catch (Exception)
                 {

@@ -1,0 +1,16 @@
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\bin\Debug\net9.0\SpotifyClone.Application.deps.json
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\bin\Debug\net9.0\SpotifyClone.Application.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\bin\Debug\net9.0\SpotifyClone.Application.pdb
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\bin\Debug\net9.0\SpotifyClone.Shared.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\bin\Debug\net9.0\SpotifyClone.Shared.pdb
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\SpotifyClone.Application.csproj.AssemblyReference.cache
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\SpotifyClone.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\SpotifyClone.Application.AssemblyInfoInputs.cache
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\SpotifyClone.Application.AssemblyInfo.cs
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\SpotifyClone.Application.csproj.CoreCompileInputs.cache
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\SpotifyClone.Application.sourcelink.json
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\SpotifyC.DDF6728B.Up2Date
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\SpotifyClone.Application.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\refint\SpotifyClone.Application.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\SpotifyClone.Application.pdb
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\ref\SpotifyClone.Application.dll

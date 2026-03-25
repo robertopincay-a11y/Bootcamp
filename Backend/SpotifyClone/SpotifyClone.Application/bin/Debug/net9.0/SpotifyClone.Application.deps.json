@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SpotifyClone.Application/1.0.0": {
+        "dependencies": {
+          "SpotifyClone.Shared": "1.0.0"
+        },
+        "runtime": {
+          "SpotifyClone.Application.dll": {}
+        }
+      },
+      "SpotifyClone.Shared/1.0.0": {
+        "runtime": {
+          "SpotifyClone.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SpotifyClone.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpotifyClone.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
