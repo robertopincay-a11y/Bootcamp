@@ -1,3 +1,8 @@
+using SpotifyClone.Application.Interfaces.Services;
+using SpotifyClone.Application.Models.Dtos;
+using SpotifyClone.Application.Services;
+using SpotifyClone.Shared;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +10,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+//Services
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddSingleton<Cache<UserDto>>();
 
 var app = builder.Build();
 

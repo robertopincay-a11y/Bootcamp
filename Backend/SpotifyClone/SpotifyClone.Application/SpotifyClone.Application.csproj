@@ -7,10 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Responses\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\SpotifyClone.Infrastructure\SpotifyClone.Domain.csproj" />
     <ProjectReference Include="..\SpotifyClone.Shared\SpotifyClone.Shared.csproj" />
   </ItemGroup>
 

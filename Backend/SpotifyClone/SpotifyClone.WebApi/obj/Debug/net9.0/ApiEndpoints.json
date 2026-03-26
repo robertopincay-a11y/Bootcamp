@@ -24,30 +24,35 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "SpotifyClone.Application.Models.Requests.User.GetAllUsersRequest",
-        "IsRequired": true
+        "Name": "Limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Offset",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "SpotifyClone.WebApi.Controllers.UsersController",
-    "Method": "Update",
-    "RelativePath": "api/Users",
-    "HttpMethod": "PUT",
+    "Method": "GetById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "SpotifyClone.Application.Models.Requests.User.UpdateUsersRequest",
-        "IsRequired": true
-      },
-      {
         "Name": "id",
         "Type": "System.Guid",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -1,29 +1,35 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TalentInsights.Application.Helpers;
+using TalentInsights.Application.Interfaces.Services;
 using TalentInsights.Application.Models.Requests.Collaborator;
 
 namespace TalentInsights.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CollaboratorsController : ControllerBase
+    public class CollaboratorsController(ICollaboratorService collaboratorService) : ControllerBase
     {
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateCollaboratorRequest model)
         {
-
+            var rsp = collaboratorService.Create(model);
             return Ok($"Usuario:{model.FullName} creado!");
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll([FromQuery] int limit, [FromQuery] int offset)
+        public async Task<IActionResult> GetAll([FromQuery] GetAllCollaboratorsRequest model)
         {
-            return Ok($"Todos los usuarios: limit:{limit}, offset:{offset}");
+            List<string> users = ["Usuario 1", "Usuario 2", "Usuario 3"];
+
+            return Ok(ResponseHelper.Create(users));
         }
 
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> GetById(Guid id)
         {
-            return Ok($"{id}");
+            var usuarioId = $"{id}";
+
+            return Ok(ResponseHelper.Create($"{usuarioId}"));
         }
 
         [HttpPut]

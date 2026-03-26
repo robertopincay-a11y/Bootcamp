@@ -1,32 +1,45 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SpotifyClone.Application.Helpers;
+using SpotifyClone.Application.Interfaces.Services;
 using SpotifyClone.Application.Models.Requests.User;
 
 namespace SpotifyClone.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class UsersController(IUserService userService) : ControllerBase
     {
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateUserRequest model)
         {
-            return Ok($"Usuario:{model.FullName} creado!");
+            var resp = userService.Create(model);
+            return Ok(resp);
         }
         [HttpGet]
-        public async Task<IActionResult> GetAll([FromBody] GetAllUsersRequest model)
+        public async Task<IActionResult> GetAll([FromQuery] GetAllUsersRequest model)
         {
-            return Ok($"Todos los usuarios: usuario:{model.FullName} limit:{model.Limit}, offset:{model.Offset}");
+            return Ok(ResponseHelper.Create(userService.Get(model.Limit ?? 0, model.Offset ?? 0)));
         }
-        [HttpPut]
-        public async Task<IActionResult> Update([FromBody] UpdateUsersRequest model, Guid id)
+
+        [HttpGet("{id:guid}")]
+        public async Task<IActionResult> GetById(Guid id)
         {
-            return Ok($"Usuario Actualizado: {id} - {model.FullName}");
+            var rsp = userService.Get(id);
+            return Ok(rsp);
         }
 
         [HttpDelete("{id:guid}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            return Ok($"Usuario Eliminado: {id}");
+            var rsp = userService.Delete(id);
+            return Ok(rsp);
         }
+
+        [HttpPut("change-password/{id:guid}")]
+        public async Task<IActionResult> ChangePassword(Guid id, [FromBody] ChangePasswordUserRequest model)
+        {
+            var rsp = userService.ChangePassword(id);
+        }
+
     }
 }

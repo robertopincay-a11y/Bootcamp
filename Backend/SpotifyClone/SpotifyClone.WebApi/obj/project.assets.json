@@ -45,6 +45,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "SpotifyClone.Domain": "1.0.0",
           "SpotifyClone.Shared": "1.0.0"
         },
         "compile": {
@@ -52,6 +53,16 @@
         },
         "runtime": {
           "bin/placeholder/SpotifyClone.Application.dll": {}
+        }
+      },
+      "SpotifyClone.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SpotifyClone.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SpotifyClone.Domain.dll": {}
         }
       },
       "SpotifyClone.Shared/1.0.0": {
@@ -182,6 +193,11 @@
       "type": "project",
       "path": "../SpotifyClone.Application/SpotifyClone.Application.csproj",
       "msbuildProject": "../SpotifyClone.Application/SpotifyClone.Application.csproj"
+    },
+    "SpotifyClone.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SpotifyClone.Infrastructure/SpotifyClone.Domain.csproj",
+      "msbuildProject": "../SpotifyClone.Infrastructure/SpotifyClone.Domain.csproj"
     },
     "SpotifyClone.Shared/1.0.0": {
       "type": "project",

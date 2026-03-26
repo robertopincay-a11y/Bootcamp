@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\calculadora\\consolecalculator\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|solutionrelative:consolecalculator\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\calculadora\\consolecalculator\\classes\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|solutionrelative:consolecalculator\\classes\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\calculadora\\consolecalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|solutionrelative:consolecalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\calculadora\\consolecalculator\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|solutionrelative:consolecalculator\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00D22C94-89C8-4663-ABFC-D4673C56B9D8}|ConsoleCalculator\\ConsoleCalculator.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\calculadora\\consolecalculator\\models\\opcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 27,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleCalculator\\Program.cs",
@@ -150,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "IApplication.cs",
               "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Interfaces\\IApplication.cs",
               "RelativeDocumentMoniker": "ConsoleCalculator\\Interfaces\\IApplication.cs",
@@ -158,17 +158,18 @@
               "RelativeToolTip": "ConsoleCalculator\\Interfaces\\IApplication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T17:11:36.179Z"
+              "WhenOpened": "2026-03-18T17:11:36.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Application.cs",
               "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Classes\\Application.cs",
               "RelativeDocumentMoniker": "ConsoleCalculator\\Classes\\Application.cs",
               "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\Calculadora\\ConsoleCalculator\\Classes\\Application.cs",
               "RelativeToolTip": "ConsoleCalculator\\Classes\\Application.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T17:10:01.405Z",
               "EditorCaption": ""

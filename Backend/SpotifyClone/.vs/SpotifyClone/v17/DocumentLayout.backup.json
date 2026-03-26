@@ -7,12 +7,48 @@
       "RelativeMoniker": "D:0:0:{A6B218CF-F2A9-4057-AAF6-2DE3EC472D7E}|SpotifyClone.WebApi\\SpotifyClone.WebApi.csproj|solutionrelative:spotifyclone.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|solutionrelative:spotifyclone.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.application\\helpers\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|solutionrelative:spotifyclone.application\\helpers\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|solutionrelative:spotifyclone.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.application\\models\\responses\\genericresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|solutionrelative:spotifyclone.application\\models\\responses\\genericresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.application\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|solutionrelative:spotifyclone.application\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.application\\models\\requests\\user\\updateusersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|solutionrelative:spotifyclone.application\\models\\requests\\user\\updateusersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.application\\models\\requests\\user\\getallusersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|solutionrelative:spotifyclone.application\\models\\requests\\user\\getallusersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.application\\models\\requests\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F40FCB8-AE6D-4BF8-97DE-E8D8FDC9FFCB}|SpotifyClone.Application\\SpotifyClone.Application.csproj|solutionrelative:spotifyclone.application\\models\\requests\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD784CB2-0ACE-4BA8-8F68-B741D070DF9D}|SpotifyClone.Shared\\SpotifyClone.Shared.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.shared\\helpers\\datetimehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD784CB2-0ACE-4BA8-8F68-B741D070DF9D}|SpotifyClone.Shared\\SpotifyClone.Shared.csproj|solutionrelative:spotifyclone.shared\\helpers\\datetimehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD784CB2-0ACE-4BA8-8F68-B741D070DF9D}|SpotifyClone.Shared\\SpotifyClone.Shared.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.shared\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD784CB2-0ACE-4BA8-8F68-B741D070DF9D}|SpotifyClone.Shared\\SpotifyClone.Shared.csproj|solutionrelative:spotifyclone.shared\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6B218CF-F2A9-4057-AAF6-2DE3EC472D7E}|SpotifyClone.WebApi\\SpotifyClone.WebApi.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\spotifyclone\\spotifyclone.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B218CF-F2A9-4057-AAF6-2DE3EC472D7E}|SpotifyClone.WebApi\\SpotifyClone.WebApi.csproj|solutionrelative:spotifyclone.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 31,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateUsersRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Requests\\User\\UpdateUsersRequest.cs",
-              "RelativeDocumentMoniker": "SpotifyClone.Application\\Models\\Requests\\User\\UpdateUsersRequest.cs",
-              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Requests\\User\\UpdateUsersRequest.cs",
-              "RelativeToolTip": "SpotifyClone.Application\\Models\\Requests\\User\\UpdateUsersRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T17:19:42.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateUserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Requests\\User\\CreateUserRequest.cs",
-              "RelativeDocumentMoniker": "SpotifyClone.Application\\Models\\Requests\\User\\CreateUserRequest.cs",
-              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Requests\\User\\CreateUserRequest.cs",
-              "RelativeToolTip": "SpotifyClone.Application\\Models\\Requests\\User\\CreateUserRequest.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T17:02:15.105Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:146:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -148,15 +158,158 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.Application\\Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "SpotifyClone.Application\\Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:57:00.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.Application\\Models\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "SpotifyClone.Application\\Models\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:59:47.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Services\\UserService.cs*",
+              "RelativeToolTip": "SpotifyClone.Application\\Services\\UserService.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:57:42.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericResponse.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Responses\\GenericResponse.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.Application\\Models\\Responses\\GenericResponse.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Responses\\GenericResponse.cs",
+              "RelativeToolTip": "SpotifyClone.Application\\Models\\Responses\\GenericResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:52:49.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Helpers\\ResponseHelper.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.Application\\Helpers\\ResponseHelper.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Helpers\\ResponseHelper.cs",
+              "RelativeToolTip": "SpotifyClone.Application\\Helpers\\ResponseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:50:16.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateUsersRequest.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Requests\\User\\UpdateUsersRequest.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.Application\\Models\\Requests\\User\\UpdateUsersRequest.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Requests\\User\\UpdateUsersRequest.cs",
+              "RelativeToolTip": "SpotifyClone.Application\\Models\\Requests\\User\\UpdateUsersRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T17:19:42.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAllUsersRequest.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Requests\\User\\GetAllUsersRequest.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.Application\\Models\\Requests\\User\\GetAllUsersRequest.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Requests\\User\\GetAllUsersRequest.cs",
+              "RelativeToolTip": "SpotifyClone.Application\\Models\\Requests\\User\\GetAllUsersRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:45:05.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.WebApi\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "SpotifyClone.WebApi\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.WebApi\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "SpotifyClone.WebApi\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.WebApi\\Controllers\\UsersController.cs*",
+              "RelativeToolTip": "SpotifyClone.WebApi\\Controllers\\UsersController.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T16:56:02.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Requests\\User\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.Application\\Models\\Requests\\User\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Application\\Models\\Requests\\User\\CreateUserRequest.cs",
+              "RelativeToolTip": "SpotifyClone.Application\\Models\\Requests\\User\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T17:02:15.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DateTimeHelper.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Shared\\Helpers\\DateTimeHelper.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.Shared\\Helpers\\DateTimeHelper.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Shared\\Helpers\\DateTimeHelper.cs",
+              "RelativeToolTip": "SpotifyClone.Shared\\Helpers\\DateTimeHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T14:23:40.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cache.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Shared\\Cache.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.Shared\\Cache.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.Shared\\Cache.cs",
+              "RelativeToolTip": "SpotifyClone.Shared\\Cache.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T14:31:37.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "SpotifyClone.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\SpotifyClone\\SpotifyClone.WebApi\\Program.cs",
+              "RelativeToolTip": "SpotifyClone.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:46:13.734Z",
               "EditorCaption": ""
             }
           ]
