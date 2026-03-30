@@ -38,7 +38,8 @@ namespace SpotifyClone.WebApi.Controllers
         [HttpPut("change-password/{id:guid}")]
         public async Task<IActionResult> ChangePassword(Guid id, [FromBody] ChangePasswordUserRequest model)
         {
-            var rsp = userService.ChangePassword(id);
+            var rsp = userService.ChangePassword(id, model);
+            return Ok(rsp);
         }
 
     }

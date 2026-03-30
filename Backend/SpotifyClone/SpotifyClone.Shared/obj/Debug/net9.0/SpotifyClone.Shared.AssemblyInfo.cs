@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpotifyClone.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ee2b76de9b733c80ce5a5dab87229f0a18f22da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c48217ee114e10c89fe7ac409de5e05cf1a0e65")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpotifyClone.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpotifyClone.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

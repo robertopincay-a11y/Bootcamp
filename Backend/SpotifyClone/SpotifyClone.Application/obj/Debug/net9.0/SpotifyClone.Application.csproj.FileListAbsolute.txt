@@ -14,3 +14,5 @@ C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone
 C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\refint\SpotifyClone.Application.dll
 C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\SpotifyClone.Application.pdb
 C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\obj\Debug\net9.0\ref\SpotifyClone.Application.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\bin\Debug\net9.0\SpotifyClone.Domain.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.Application\bin\Debug\net9.0\SpotifyClone.Domain.pdb

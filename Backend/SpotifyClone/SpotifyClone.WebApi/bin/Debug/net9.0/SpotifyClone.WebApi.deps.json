@@ -38,10 +38,19 @@
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.22.1": {},
       "SpotifyClone.Application/1.0.0": {
         "dependencies": {
+          "SpotifyClone.Domain": "1.0.0",
           "SpotifyClone.Shared": "1.0.0"
         },
         "runtime": {
           "SpotifyClone.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SpotifyClone.Domain/1.0.0": {
+        "runtime": {
+          "SpotifyClone.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -85,6 +94,11 @@
       "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
     },
     "SpotifyClone.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpotifyClone.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,6 +1,6 @@
 using SpotifyClone.Application.Interfaces.Services;
-using SpotifyClone.Application.Models.Dtos;
 using SpotifyClone.Application.Services;
+using SpotifyClone.Domain.Entities;
 using SpotifyClone.Shared;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +13,7 @@ builder.Services.AddOpenApi();
 
 //Services
 builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddSingleton<Cache<UserDto>>();
+builder.Services.AddSingleton<Cache<User>>();
 
 var app = builder.Build();
 

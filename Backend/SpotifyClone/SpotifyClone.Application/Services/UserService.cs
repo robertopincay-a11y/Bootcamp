@@ -12,7 +12,6 @@ namespace SpotifyClone.Application.Services
     public class UserService(Cache<User> cache) : IUserService
     {
 
-
         public GenericResponse<UserDto> Create(CreateUserRequest model)
         {
             var user = new User
@@ -44,6 +43,81 @@ namespace SpotifyClone.Application.Services
             return ResponseHelper.Create(userDto, "Usuario Creado con exito");
         }
 
+        public GenericResponse<List<UserDto>> Get(int limit, int offset)
+        {
+            var users = cache.Get();
+            var lista = new List<UserDto>();
+
+            foreach (var user in users)
+            {
+                var usersDto = new UserDto
+                {
+                    UsuarioId = user.UsuarioId,
+                    TipoCuenta = user.TipoCuenta,
+                    Membership = user.Membership,
+                    Nombre = user.Nombre,
+                    Email = user.Email,
+                    CreatedAt = user.CreatedAt,
+                    JoinedAt = user.JoinedAt
+                };
+                lista.Add(usersDto);
+            }
+
+            return ResponseHelper.Create(lista);
+        }
+
+
+        public GenericResponse<UserDto> Get(Guid UserId)
+        {
+            var user = cache.Get(UserId.ToString());
+            UserDto userDto;
+            if (user is not null)
+            {
+                userDto = new UserDto
+                {
+                    UsuarioId = user.UsuarioId,
+                    TipoCuenta = user.TipoCuenta,
+                    Membership = user.Membership,
+                    Nombre = user.Nombre,
+                    Email = user.Email,
+                    CreatedAt = user.CreatedAt,
+                    JoinedAt = user.JoinedAt
+                };
+            }
+            else
+            {
+                userDto = null;
+            }
+
+            return ResponseHelper.Create(userDto);
+
+        }
+
+        public GenericResponse<bool> ChangePassword(Guid userId, ChangePasswordUserRequest model)
+        {
+            var rsp = cache.Get(userId.ToString());
+            if (rsp is not null)
+            {
+                if (rsp.Password != model.CurrentPassword)
+                {
+
+                    return ResponseHelper.Create(false);
+                }
+                else
+                {
+                    rsp.Password = model.NewPassword;
+                    return ResponseHelper.Create(true);
+                }
+            }
+            else
+            {
+                return ResponseHelper.Create(false);
+            }
+
+
+        }
+
+
         public GenericResponse<bool> Delete(Guid userId)
         {
             var SiExiste = cache.Get(userId.ToString());
@@ -57,33 +131,5 @@ namespace SpotifyClone.Application.Services
             return ResponseHelper.Create(true);
         }
 
-        public GenericResponse<List<UserDto>> Get(int limit, int offset)
-        {
-            var users = cache.Get();
-            return ResponseHelper.Create(users);
-        }
-
-
-        public GenericResponse<UserDto> Get(Guid UserId)
-        {
-            var user = cache.Get(UserId.ToString());
-
-            return ResponseHelper.Create(user);
-
-
-        }
-
-        public GenericResponse<bool> ChangePassword(Guid userId, ChangePasswordUserRequest model)
-        {
-            var rsp = cache.Get(userId.ToString());
-            if (rsp is not null)
-            {
-                rsp.
-            }
-
-
-
-            return ResponseHelper.Create(true);
-        }
     }
 }

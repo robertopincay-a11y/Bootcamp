@@ -36,3 +36,5 @@ C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone
 C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.WebApi\obj\Debug\net9.0\SpotifyClone.WebApi.pdb
 C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.WebApi\obj\Debug\net9.0\SpotifyClone.WebApi.genruntimeconfig.cache
 C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.WebApi\obj\Debug\net9.0\ref\SpotifyClone.WebApi.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.WebApi\bin\Debug\net9.0\SpotifyClone.Domain.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\SpotifyClone\SpotifyClone.WebApi\bin\Debug\net9.0\SpotifyClone.Domain.pdb
