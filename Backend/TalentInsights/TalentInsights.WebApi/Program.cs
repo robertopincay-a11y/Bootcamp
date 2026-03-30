@@ -1,5 +1,6 @@
 using TalentInsights.Application.Interfaces.Services;
 using TalentInsights.Application.Services;
+using TalentInsights.Domain.Database.SqlServer.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,9 @@ builder.Services.AddOpenApi();
 //Services
 builder.Services.AddScoped<ICollaboratorService, CollaboratorServices>();
 
+
+//Database
+builder.Services.AddSqlServer<TalentInsightsContext>(builder.Configuration.GetConnectionString("Database"));
 
 var app = builder.Build();
 
