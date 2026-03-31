@@ -1,4 +1,7 @@
-﻿namespace TalentInsights.Domain.Database.SqlServer.Entities;
+﻿using System;
+using System.Collections.Generic;
+
+namespace TalentInsights.Domain.Database.SqlServer.Entities;
 
 public partial class Collaborator
 {
@@ -17,6 +20,8 @@ public partial class Collaborator
     public DateTime CreatedAt { get; set; }
 
     public DateTime UpdatedAt { get; set; }
+
+    public DateTime? DeletedAt { get; set; }
 
     public virtual ICollection<CollaboratorHistory> CollaboratorHistories { get; set; } = new List<CollaboratorHistory>();
 

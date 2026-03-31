@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TalentInsights.Application\TalentInsights.Application.csproj" />
     <ProjectReference Include="..\TalentInsights.Domain\TalentInsights.Domain.csproj" />
+    <ProjectReference Include="..\TalentInsights.Infrastructure\TalentInsights.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

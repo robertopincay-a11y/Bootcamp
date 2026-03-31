@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TalentInsights.Application.Helpers;
 using TalentInsights.Application.Interfaces.Services;
 using TalentInsights.Application.Models.Requests.Collaborator;
 
@@ -12,42 +11,37 @@ namespace TalentInsights.WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateCollaboratorRequest model)
         {
-            var rsp = collaboratorService.Create(model);
-            return Ok($"Usuario:{model.FullName} creado!");
+            var rsp = await collaboratorService.Create(model);
+            return Ok(rsp);
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll([FromQuery] GetAllCollaboratorsRequest model)
+        public async Task<IActionResult> GetAll([FromQuery] FilterCollaboratorsRequest model)
         {
-            List<string> users = ["Usuario 1", "Usuario 2", "Usuario 3"];
-
-            return Ok(ResponseHelper.Create(users));
+            var srv = collaboratorService.Get(model);
+            return Ok(srv);
         }
 
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> GetById(Guid id)
         {
-            var usuarioId = $"{id}";
-
-            return Ok(ResponseHelper.Create($"{usuarioId}"));
+            var srv = await collaboratorService.Get(id);
+            return Ok(srv);
         }
 
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] UpdateCollaboratorsRequest model, Guid id)
         {
-            return Ok($"Usuario Actualizado: {id} - {model.FullName}");
+            var srv = await collaboratorService.Update(id, model);
+            return Ok(srv);
         }
 
-        [HttpPatch("change-password/{id:guid}")]
-        public async Task<IActionResult> ChangePassword(Guid id, [FromBody] ChangePasswordCollaboratorRequest model)
-        {
-            return Ok($"Contrasena cambiada:{model.CurrentPassword} {model.NewPassword}");
-        }
 
         [HttpDelete("{id:guid}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            return Ok($"Usuario Eliminado: {id}");
+            var srv = await collaboratorService.Delete(id);
+            return Ok(srv);
         }
     }
 }

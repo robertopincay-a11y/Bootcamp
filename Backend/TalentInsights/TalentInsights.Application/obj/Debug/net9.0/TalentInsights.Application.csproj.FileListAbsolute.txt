@@ -14,3 +14,5 @@ C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\TalentInsigh
 C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\TalentInsights\TalentInsights.Application\obj\Debug\net9.0\refint\TalentInsights.Application.dll
 C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\TalentInsights\TalentInsights.Application\obj\Debug\net9.0\TalentInsights.Application.pdb
 C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\TalentInsights\TalentInsights.Application\obj\Debug\net9.0\ref\TalentInsights.Application.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\TalentInsights\TalentInsights.Application\bin\Debug\net9.0\TalentInsights.Domain.dll
+C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\TalentInsights\TalentInsights.Application\bin\Debug\net9.0\TalentInsights.Domain.pdb

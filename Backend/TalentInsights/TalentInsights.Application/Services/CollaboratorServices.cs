@@ -3,46 +3,112 @@ using TalentInsights.Application.Interfaces.Services;
 using TalentInsights.Application.Models.Dtos;
 using TalentInsights.Application.Models.Requests.Collaborator;
 using TalentInsights.Application.Models.Responses;
+using TalentInsights.Domain.Database.SqlServer.Entities;
+using TalentInsights.Domain.Exceptions;
+using TalentInsights.Domain.Interfaces.Repositories;
+using TalentInsights.Shared.Constants;
 using TalentInsights.Shared.Helpers;
 
 namespace TalentInsights.Application.Services
 
 {
-    public class CollaboratorServices : ICollaboratorService
+    public class CollaboratorServices(ICollaboratorRepository repository) : ICollaboratorService
     {
-        public GenericResponse<CollaboratorDto> Create(CreateCollaboratorRequest model)
+        public async Task<GenericResponse<CollaboratorDto>> Create(CreateCollaboratorRequest model)
         {
-            var collaborator = new CollaboratorDto
+            var collaborator = await repository.Create(new Collaborator
             {
-                CollaboratorId = Guid.NewGuid(),
-                FullName = model.FullName,
                 GitlabProfile = model.GitlabProfile,
+                FullName = model.FullName,
                 Position = model.Position,
-                CreatedAt = DateTimeHelper.UtcNow(),
-                JoinedAt = DateTimeHelper.UtcNow()
 
+            });
+
+
+            return ResponseHelper.Create(Map(collaborator));
+        }
+
+        public async Task<GenericResponse<bool>> Delete(Guid collaboratorId)
+        {
+            var Collaborator = await GetCollaborator(collaboratorId);
+
+            var delete = await repository.Delete(Collaborator);
+
+            return ResponseHelper.Create(delete);
+        }
+
+        public GenericResponse<List<CollaboratorDto>> Get(FilterCollaboratorsRequest model)
+        {
+            var queryable = repository.Queryable();
+
+            //filtrado de nombre
+            if (string.IsNullOrWhiteSpace(model.FullName))
+            {
+                queryable = queryable.Where(x => x.FullName.Contains(model.FullName ?? ""));
+            }
+            //filtrado de Gitlab
+            if (string.IsNullOrWhiteSpace(model.GitlabProfile))
+            {
+                queryable = queryable.Where(x => x.GitlabProfile != null && x.GitlabProfile.Contains(model.GitlabProfile ?? ""));
+            }
+            //filtrado de position
+            if (!string.IsNullOrWhiteSpace(model.Position))
+            {
+                queryable = queryable.Where(x => x.Position.Contains(model.Position ?? ""));
+            }
+            //Realizar paginacion y realizar consulta
+            var collaborators = queryable.Skip(model.Offset).Take(model.Limit).ToList();
+
+            //Mapear colaboradores
+            List<CollaboratorDto> mapped = [];
+            foreach (var collaborator in collaborators)
+            {
+                mapped.Add(Map(collaborator));
+            }
+
+            return ResponseHelper.Create(mapped);
+        }
+
+        public async Task<GenericResponse<CollaboratorDto>> Get(Guid collaboratorId)
+        {
+            var collaborator = await GetCollaborator(collaboratorId);
+            return ResponseHelper.Create(Map(collaborator));
+        }
+
+        public async Task<GenericResponse<CollaboratorDto>> Update(Guid collaboratorId, UpdateCollaboratorsRequest model)
+        {
+            var collaborator = await GetCollaborator(collaboratorId);
+            collaborator.GitlabProfile = model.GitlabProfile ?? collaborator.GitlabProfile;
+            collaborator.Position = model.Position ?? collaborator.Position;
+            collaborator.FullName = model.FullName ?? collaborator.FullName;
+
+            collaborator.UpdatedAt = DateTimeHelper.UtcNow();
+
+            var update = await repository.Update(collaborator);
+
+            return ResponseHelper.Create(Map(update));
+        }
+
+        private static CollaboratorDto Map(Collaborator collaborator)
+        {
+
+            return new CollaboratorDto
+            {
+                CollaboratorId = collaborator.Id,
+                FullName = collaborator.FullName,
+                Position = collaborator.Position,
+                GitlabProfile = collaborator.GitlabProfile,
+                JoinedAt = collaborator.JoinedAt,
+                CreatedAt = collaborator.CreatedAt,
+                IsActive = collaborator.IsActive
             };
-            return ResponseHelper.Create(collaborator);
         }
 
-        public GenericResponse<bool> Delete(Guid collaboratorId)
+        private async Task<Collaborator> GetCollaborator(Guid collaboratorId)
         {
-            throw new NotImplementedException();
-        }
+            return await repository.Get(collaboratorId)
+                    ?? throw new NotFoundExceptions(ResponseConstants.COLLABORATOR_NOT_EXISTS);
 
-        public GenericResponse<List<CollaboratorDto>> Get(int limit, int offset)
-        {
-            throw new NotImplementedException();
-        }
-
-        public GenericResponse<CollaboratorDto?> Get(Guid collaboratorId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public GenericResponse<CollaboratorDto> Update(Guid collaboratorId, UpdateCollaboratorsRequest model)
-        {
-            throw new NotImplementedException();
         }
     }
 }

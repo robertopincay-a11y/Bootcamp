@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using TalentInsights.Domain.Database.SqlServer.Entities;
 
 namespace TalentInsights.Domain.Database.SqlServer.Context;

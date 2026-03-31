@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentInsights.Shared", "Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentInsights.Domain", "TalentInsights.Domain\TalentInsights.Domain.csproj", "{60337A25-4666-4B2C-9396-C8DB8F320919}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentInsights.Infrastructure", "TalentInsights.Infrastructure\TalentInsights.Infrastructure.csproj", "{0085B34B-C659-4C6F-A55F-06D51C2181DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{60337A25-4666-4B2C-9396-C8DB8F320919}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60337A25-4666-4B2C-9396-C8DB8F320919}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60337A25-4666-4B2C-9396-C8DB8F320919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0085B34B-C659-4C6F-A55F-06D51C2181DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0085B34B-C659-4C6F-A55F-06D51C2181DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0085B34B-C659-4C6F-A55F-06D51C2181DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0085B34B-C659-4C6F-A55F-06D51C2181DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

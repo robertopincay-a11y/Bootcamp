@@ -1,4 +1,7 @@
-﻿namespace TalentInsights.Domain.Database.SqlServer.Entities;
+﻿using System;
+using System.Collections.Generic;
+
+namespace TalentInsights.Domain.Database.SqlServer.Entities;
 
 public partial class Project
 {

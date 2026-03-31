@@ -6,10 +6,10 @@ namespace TalentInsights.Application.Interfaces.Services
 {
     public interface ICollaboratorService
     {
-        public GenericResponse<CollaboratorDto> Create(CreateCollaboratorRequest model);
-        public GenericResponse<CollaboratorDto> Update(Guid collaboratorId, UpdateCollaboratorsRequest model);
-        public GenericResponse<List<CollaboratorDto>> Get(int limit, int offset);
-        public GenericResponse<CollaboratorDto?> Get(Guid collaboratorId);
-        public GenericResponse<bool> Delete(Guid collaboratorId);
+        public Task<GenericResponse<CollaboratorDto>> Create(CreateCollaboratorRequest model);
+        public Task<GenericResponse<CollaboratorDto>> Update(Guid collaboratorId, UpdateCollaboratorsRequest model);
+        public GenericResponse<List<CollaboratorDto>> Get(FilterCollaboratorsRequest model);
+        public Task<GenericResponse<CollaboratorDto>> Get(Guid collaboratorId);
+        public Task<GenericResponse<bool>> Delete(Guid collaboratorId);
     }
 }
