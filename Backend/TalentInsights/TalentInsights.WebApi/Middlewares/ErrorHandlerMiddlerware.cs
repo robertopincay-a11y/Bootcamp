@@ -1,9 +1,12 @@
 ﻿
+using TalentInsights.Application.Helpers;
+using TalentInsights.Application.Models.Responses;
 using TalentInsights.Domain.Exceptions;
+using TalentInsights.Shared.Constants;
 
 namespace TalentInsights.WebApi.Middlewares
 {
-    public class ErrorHandlerMiddlerware : IMiddleware
+    public class ErrorHandlerMiddlerware(ILogger<ErrorHandlerMiddlerware> logger) : IMiddleware
     {
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
@@ -13,8 +16,34 @@ namespace TalentInsights.WebApi.Middlewares
             }
             catch (NotFoundExceptions exception)
             {
-                throw;
+                await context.Response.WriteAsJsonAsync(ManageException(context, exception, StatusCodes.Status404NotFound));
+
             }
+            catch (BadRequestException exception)
+            {
+                await context.Response.WriteAsJsonAsync(ManageException(context, exception, StatusCodes.Status400BadRequest));
+            }
+            catch (Exception exception)
+            {
+                var traceId = Guid.NewGuid();
+                var message = ResponseConstants.ERROR_UNEXPECTED(traceId.ToString());
+
+                logger.LogInformation("Se genero una excepcion no controlada, con el traceId:{traceId}. Excepcion:{excepcion}", traceId, exception);
+
+                await context.Response.WriteAsJsonAsync(ManageException(context, exception, StatusCodes.Status500InternalServerError, message));
+            }
+        }
+
+        public GenericResponse<string> ManageException(HttpContext context, Exception exception, int statusCode, string? message = null)
+        {
+            var response = ResponseHelper.Create(
+                data: message ?? exception.Message,
+                message: message ?? exception.Message,
+                errors: [message ?? exception.Message]);
+
+
+            context.Response.StatusCode = statusCode;
+            return response;
         }
     }
 }

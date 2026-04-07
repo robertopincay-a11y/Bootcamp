@@ -16,6 +16,7 @@ namespace TalentInsights.Application.Services
     {
         public async Task<GenericResponse<CollaboratorDto>> Create(CreateCollaboratorRequest model)
         {
+
             var collaborator = await repository.Create(new Collaborator
             {
                 GitlabProfile = model.GitlabProfile,
@@ -30,11 +31,12 @@ namespace TalentInsights.Application.Services
 
         public async Task<GenericResponse<bool>> Delete(Guid collaboratorId)
         {
-            var Collaborator = await GetCollaborator(collaboratorId);
+            var collaborator = await GetCollaborator(collaboratorId);
 
-            var delete = await repository.Delete(Collaborator);
+            collaborator.DeletedAt = DateTimeHelper.UtcNow();
+            await repository.Update(collaborator);
 
-            return ResponseHelper.Create(delete);
+            return ResponseHelper.Create(true);
         }
 
         public GenericResponse<List<CollaboratorDto>> Get(FilterCollaboratorsRequest model)
@@ -78,6 +80,7 @@ namespace TalentInsights.Application.Services
         public async Task<GenericResponse<CollaboratorDto>> Update(Guid collaboratorId, UpdateCollaboratorsRequest model)
         {
             var collaborator = await GetCollaborator(collaboratorId);
+
             collaborator.GitlabProfile = model.GitlabProfile ?? collaborator.GitlabProfile;
             collaborator.Position = model.Position ?? collaborator.Position;
             collaborator.FullName = model.FullName ?? collaborator.FullName;
