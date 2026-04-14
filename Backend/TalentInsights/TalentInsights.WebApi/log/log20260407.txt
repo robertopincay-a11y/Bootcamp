@@ -2,3 +2,20 @@
 2026-04-07 08:30:48.011 -05:00 [INF] Application started. Press Ctrl+C to shut down.
 2026-04-07 08:30:48.012 -05:00 [INF] Hosting environment: Development
 2026-04-07 08:30:48.016 -05:00 [INF] Content root path: C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\TalentInsights\TalentInsights.WebApi
+2026-04-07 10:45:52.019 -05:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Collaborators] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-07 10:45:52.318 -05:00 [INF] Executed DbCommand (30ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 150), @p2='?' (Size = 255), @p3='?' (DbType = Boolean), @p4='?' (Size = 255), @p5='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Collaborators] ([Email], [FullName], [GitlabProfile], [IsActive], [Password], [Position])
+OUTPUT INSERTED.[Id], INSERTED.[CreatedAt], INSERTED.[DeletedAt], INSERTED.[JoinedAt], INSERTED.[UpdatedAt]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2026-04-07 10:45:52.681 -05:00 [INF] Now listening on: http://localhost:5263
+2026-04-07 10:45:52.761 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 10:45:52.765 -05:00 [INF] Hosting environment: Development
+2026-04-07 10:45:52.769 -05:00 [INF] Content root path: C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\TalentInsights\TalentInsights.WebApi

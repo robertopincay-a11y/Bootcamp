@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.webapi\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|solutionrelative:talentinsights.webapi\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|solutionrelative:talentinsights.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.webapi\\middlewares\\errorhandlermiddlerware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|solutionrelative:talentinsights.webapi\\middlewares\\errorhandlermiddlerware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|solutionrelative:talentinsights.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.webapi\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|solutionrelative:talentinsights.webapi\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C858475-4DB1-4160-8176-EF495EF96F9D}|TalentInsights.Application\\TalentInsights.Application.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.application\\models\\responses\\genericresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C858475-4DB1-4160-8176-EF495EF96F9D}|TalentInsights.Application\\TalentInsights.Application.csproj|solutionrelative:talentinsights.application\\models\\responses\\genericresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C15CAD81-294A-482B-BBE7-05B1C111EC6A}|TalentInsights.WebApi\\TalentInsights.WebApi.csproj|solutionrelative:talentinsights.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DE98468-510E-48A8-8928-455EA9C35055}|TalentInsights.Shared\\TalentInsights.Shared.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.shared\\constants\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE98468-510E-48A8-8928-455EA9C35055}|TalentInsights.Shared\\TalentInsights.Shared.csproj|solutionrelative:talentinsights.shared\\constants\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DE98468-510E-48A8-8928-455EA9C35055}|TalentInsights.Shared\\TalentInsights.Shared.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.shared\\helpers\\hasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE98468-510E-48A8-8928-455EA9C35055}|TalentInsights.Shared\\TalentInsights.Shared.csproj|solutionrelative:talentinsights.shared\\helpers\\hasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C858475-4DB1-4160-8176-EF495EF96F9D}|TalentInsights.Application\\TalentInsights.Application.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.application\\services\\collaboratorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C858475-4DB1-4160-8176-EF495EF96F9D}|TalentInsights.Application\\TalentInsights.Application.csproj|solutionrelative:talentinsights.application\\services\\collaboratorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DE98468-510E-48A8-8928-455EA9C35055}|TalentInsights.Shared\\TalentInsights.Shared.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.shared\\constants\\responseconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE98468-510E-48A8-8928-455EA9C35055}|TalentInsights.Shared\\TalentInsights.Shared.csproj|solutionrelative:talentinsights.shared\\constants\\responseconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DE98468-510E-48A8-8928-455EA9C35055}|TalentInsights.Shared\\TalentInsights.Shared.csproj|c:\\users\\rober\\onedrive\\escritorio\\projects\\bootcamp\\github\\backend\\talentinsights\\talentinsights.shared\\helpers\\datetimehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE98468-510E-48A8-8928-455EA9C35055}|TalentInsights.Shared\\TalentInsights.Shared.csproj|solutionrelative:talentinsights.shared\\helpers\\datetimehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 29,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,41 +134,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CollaboratorServices.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Application\\Services\\CollaboratorServices.cs",
-              "RelativeDocumentMoniker": "TalentInsights.Application\\Services\\CollaboratorServices.cs",
-              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Application\\Services\\CollaboratorServices.cs",
-              "RelativeToolTip": "TalentInsights.Application\\Services\\CollaboratorServices.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "TalentInsights.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Program.cs",
+              "RelativeToolTip": "TalentInsights.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T13:29:17.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ValidationConstants.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Shared\\Constants\\ValidationConstants.cs",
-              "RelativeDocumentMoniker": "TalentInsights.Shared\\Constants\\ValidationConstants.cs",
-              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Shared\\Constants\\ValidationConstants.cs",
-              "RelativeToolTip": "TalentInsights.Shared\\Constants\\ValidationConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T17:08:13.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenericResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Application\\Models\\Responses\\GenericResponse.cs",
-              "RelativeDocumentMoniker": "TalentInsights.Application\\Models\\Responses\\GenericResponse.cs",
-              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Application\\Models\\Responses\\GenericResponse.cs",
-              "RelativeToolTip": "TalentInsights.Application\\Models\\Responses\\GenericResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T17:06:43.788Z",
+              "WhenOpened": "2026-04-14T18:30:52.991Z",
               "EditorCaption": ""
             },
             {
@@ -183,48 +153,61 @@
               "RelativeDocumentMoniker": "TalentInsights.WebApi\\Middlewares\\ErrorHandlerMiddlerware.cs",
               "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Middlewares\\ErrorHandlerMiddlerware.cs",
               "RelativeToolTip": "TalentInsights.WebApi\\Middlewares\\ErrorHandlerMiddlerware.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:44:10.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResponseConstants.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Shared\\Constants\\ResponseConstants.cs",
-              "RelativeDocumentMoniker": "TalentInsights.Shared\\Constants\\ResponseConstants.cs",
-              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Shared\\Constants\\ResponseConstants.cs",
-              "RelativeToolTip": "TalentInsights.Shared\\Constants\\ResponseConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:42:10.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceCollectionExtension.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeDocumentMoniker": "TalentInsights.WebApi\\Extensions\\ServiceCollectionExtension.cs",
-              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeToolTip": "TalentInsights.WebApi\\Extensions\\ServiceCollectionExtension.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAqwE4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:19:04.061Z",
+              "WhenOpened": "2026-04-14T18:29:56.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "TalentInsights.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Program.cs",
-              "RelativeToolTip": "TalentInsights.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "TalentInsights.WebApi\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "TalentInsights.WebApi\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAKAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:18:34.946Z",
+              "WhenOpened": "2026-04-14T18:26:13.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TalentInsights.WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TalentInsights.WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:25:31.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hasher.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Shared\\Helpers\\Hasher.cs",
+              "RelativeDocumentMoniker": "TalentInsights.Shared\\Helpers\\Hasher.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Shared\\Helpers\\Hasher.cs",
+              "RelativeToolTip": "TalentInsights.Shared\\Helpers\\Hasher.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:24:46.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DateTimeHelper.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Shared\\Helpers\\DateTimeHelper.cs",
+              "RelativeDocumentMoniker": "TalentInsights.Shared\\Helpers\\DateTimeHelper.cs",
+              "ToolTip": "C:\\Users\\rober\\OneDrive\\Escritorio\\Projects\\Bootcamp\\GitHub\\Backend\\TalentInsights\\TalentInsights.Shared\\Helpers\\DateTimeHelper.cs",
+              "RelativeToolTip": "TalentInsights.Shared\\Helpers\\DateTimeHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:24:30.513Z",
               "EditorCaption": ""
             }
           ]

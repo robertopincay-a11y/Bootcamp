@@ -6,13 +6,14 @@ namespace TalentInsights.Application.Helpers
     {
         public static GenericResponse<T> Create<T>(T data, List<string>? errors = null, string? message = null)
         {
-            return new GenericResponse<T>
+            var response = new GenericResponse<T>
             {
                 Data = data,
                 Message = message ?? "Solicitud realizada correctamente",
                 Errors = errors ?? []
-
             };
+
+            return response;
         }
     }
 }

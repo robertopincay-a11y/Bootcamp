@@ -7,11 +7,15 @@ public partial class Collaborator
 {
     public Guid Id { get; set; }
 
+    public string Email { get; set; } = null!;
+
     public string FullName { get; set; } = null!;
 
     public string? GitlabProfile { get; set; }
 
     public string Position { get; set; } = null!;
+
+    public string Password { get; set; } = null!;
 
     public DateTime JoinedAt { get; set; }
 
@@ -19,9 +23,9 @@ public partial class Collaborator
 
     public DateTime CreatedAt { get; set; }
 
-    public DateTime UpdatedAt { get; set; }
-
     public DateTime? DeletedAt { get; set; }
+
+    public DateTime UpdatedAt { get; set; }
 
     public virtual ICollection<CollaboratorHistory> CollaboratorHistories { get; set; } = new List<CollaboratorHistory>();
 

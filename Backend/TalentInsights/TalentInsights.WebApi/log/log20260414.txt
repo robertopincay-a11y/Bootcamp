@@ -1,0 +1,19 @@
+2026-04-14 13:34:49.997 -05:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Collaborators] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-14 13:34:50.324 -05:00 [INF] Executed DbCommand (40ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 100), @p2='?' (Size = 150), @p3='?' (Size = 255), @p4='?' (DbType = Boolean), @p5='?' (Size = 255), @p6='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Collaborators] ([DeletedAt], [Email], [FullName], [GitlabProfile], [IsActive], [Password], [Position])
+OUTPUT INSERTED.[Id], INSERTED.[CreatedAt], INSERTED.[JoinedAt], INSERTED.[UpdatedAt]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-04-14 13:34:50.565 -05:00 [INF] User profile is available. Using 'C:\Users\rober\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-14 13:34:50.838 -05:00 [INF] Now listening on: http://localhost:5263
+2026-04-14 13:34:50.923 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-14 13:34:50.928 -05:00 [INF] Hosting environment: Development
+2026-04-14 13:34:50.932 -05:00 [INF] Content root path: C:\Users\rober\OneDrive\Escritorio\Projects\Bootcamp\GitHub\Backend\TalentInsights\TalentInsights.WebApi
+2026-04-14 13:35:09.609 -05:00 [INF] Application is shutting down...

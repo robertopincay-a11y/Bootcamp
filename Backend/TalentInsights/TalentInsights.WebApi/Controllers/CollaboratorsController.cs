@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TalentInsights.Application.Interfaces.Services;
 using TalentInsights.Application.Models.Requests.Collaborator;
 
@@ -6,6 +7,7 @@ namespace TalentInsights.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CollaboratorsController(ICollaboratorService collaboratorService) : ControllerBase
     {
         [HttpPost]

@@ -54,10 +54,12 @@ public partial class TalentInsightsContext : DbContext
         {
             entity.Property(e => e.Id).HasDefaultValueSql("(newid())");
             entity.Property(e => e.CreatedAt).HasDefaultValueSql("(sysutcdatetime())");
+            entity.Property(e => e.Email).HasMaxLength(100);
             entity.Property(e => e.FullName).HasMaxLength(150);
             entity.Property(e => e.GitlabProfile).HasMaxLength(255);
             entity.Property(e => e.IsActive).HasDefaultValue(true);
             entity.Property(e => e.JoinedAt).HasDefaultValueSql("(sysutcdatetime())");
+            entity.Property(e => e.Password).HasMaxLength(255);
             entity.Property(e => e.Position).HasMaxLength(100);
             entity.Property(e => e.UpdatedAt).HasDefaultValueSql("(sysutcdatetime())");
         });

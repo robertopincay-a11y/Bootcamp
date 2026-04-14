@@ -1,4 +1,4 @@
-﻿namespace TalentInsights.Shared
+﻿namespace TalentInsights.Shared.Helpers
 {
     public class Cache<T>
     {
