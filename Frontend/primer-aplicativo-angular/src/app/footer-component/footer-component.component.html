@@ -1,0 +1,7 @@
+<footer>
+  <p>Año: {{ anioActual }}</p> <button (click)="mostrarCopyright()">Generar Copyright</button>
+
+  @if (mensajeCopyright) {
+    <p>{{ mensajeCopyright }}</p>
+  }
+</footer>

@@ -1,0 +1,34 @@
+<main>
+  <input [(ngModel)]="busqueda" placeholder="Buscar materia...">
+  <p>Buscando: {{ busqueda }}</p>
+
+  <ul>
+    @for (materia of materias; track materia.nombre) {
+      <li [class.aprobada]="materia.aprobada" [class.reprobada]="!materia.aprobada">
+        {{ materia.nombre }} ({{ materia.creditos }} créditos)
+      </li>
+    } @empty {
+      <p>No tienes materias registradas</p> }
+  </ul>
+
+ <div class="progress-wrapper">
+  <!-- Contenedor de la barra (Gris) -->
+  <div class="progress-container">
+    <!-- Barra dinámica -->
+    <div class="progress-bar" 
+         [style.width.%]="porcentaje" 
+         [style.background-color]="colorBarra">
+    </div>
+  </div>
+
+  <!-- Etiqueta de porcentaje justo debajo -->
+  <div class="progress-label">
+    {{ porcentaje | number:'1.0-0' }}% completado
+  </div>
+</div>
+    
+  <p>Créditos: {{ creditos }} / 120</p>
+  
+  <button (click)="sumar()">+10 Créditos</button>
+  <button (click)="restar()">-10 Créditos</button>
+</main>

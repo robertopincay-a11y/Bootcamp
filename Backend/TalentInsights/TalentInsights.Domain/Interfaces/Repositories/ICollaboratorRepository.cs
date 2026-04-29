@@ -13,5 +13,10 @@ namespace TalentInsights.Domain.Interfaces.Repositories
         Task<Collaborator> Update(Collaborator collaborator);
         Task<bool> HasCreated();
 
+
+        //Roles
+        Task<Role> GetRole(String name);
+        Task<Role> GetRole(Guid roleId);
+
     }
 }

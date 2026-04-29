@@ -13,7 +13,7 @@ namespace TalentInsights.Application.Helpers
     public static class TokenHelper
     {
         public static readonly Random rnd = new();
-        public static string Create(Guid collaboratorId, IConfiguration configuration, ICacheService cache)
+        public static string Create(Guid collaboratorId, List<string> roles, IConfiguration configuration, ICacheService cache)
         {
             var tokenConfiguration = Configuration(configuration);
             var signingCredentials = new SigningCredentials(tokenConfiguration.SecurityKey, SecurityAlgorithms.HmacSha256);

@@ -43,7 +43,10 @@ namespace TalentInsights.Infrastructure.Persistence.SqlServer.Repositories
         {
             try
             {
-                return await context.Collaborators.FirstOrDefaultAsync(x => x.Email == email && x.DeletedAt == null);
+                return await context.Collaborators
+                    .Include(collaborator => collaborator.CollaboratorRoleCollaborators)
+                    .ThenInclude(collaboratorRoles => collaboratorRoles.Role)
+                    .FirstOrDefaultAsync(x => x.Email == email && x.DeletedAt == null);
             }
             catch
             {
@@ -100,5 +103,18 @@ namespace TalentInsights.Infrastructure.Persistence.SqlServer.Repositories
                 throw;
             }
         }
+
+        public async Task<Role?> GetRole(string name)
+        {
+            return await context.Roles.FirstOrDefaultAsync(x => x.Name == name);
+        }
+
+        public async Task<Role?> GetRole(Guid roleId)
+        {
+            return await context.Roles.FirstOrDefaultAsync(x => x.Id == roleId);
+        }
+
+
+
     }
 }

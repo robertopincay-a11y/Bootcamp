@@ -2,8 +2,21 @@
   "profiles": {
     "http": {
       "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "scalar",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_CONNECTION": ""
+
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5263"
+    },
+    "http:without scalar": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_CONNECTION": ""
       },
       "dotnetRunMessages": true,
       "applicationUrl": "http://localhost:5263"

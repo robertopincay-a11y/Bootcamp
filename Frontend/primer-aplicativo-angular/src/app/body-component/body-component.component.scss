@@ -1,0 +1,36 @@
+.aprobada {
+  color: green;
+  font-weight: bold;
+}
+
+.reprobada {
+  color: red;
+  font-weight: bold;
+}
+
+.progress-wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+.progress-container {
+  background-color: #e0e0e0;
+  height: 25px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.progress-bar {
+  height: 100%;
+  transition: width 0.5s ease-in-out, background-color 0.5s;
+}
+
+.progress-label {
+  text-align: center;
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #555;
+}

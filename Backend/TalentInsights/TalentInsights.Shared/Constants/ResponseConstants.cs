@@ -5,6 +5,10 @@
         //Collaborators
         public const string COLLABORATOR_NOT_EXISTS = "El colaborador no existe";
 
+        //Role
+        public static string RoleNotFound(string name) => $"El rol {name} no existe";
+        public static string RoleNotFound(Guid id) => $"El rol con ID: {id} no existe";
+
         //Projects
         public const string PROJECT_NOT_EXISTS = "El proyecto no existe";
 
@@ -22,5 +26,7 @@
         {
             return $"Falta la propiedad: '{property}' por establecer en la configuracion del aplicativo";
         }
+
+
     }
 }

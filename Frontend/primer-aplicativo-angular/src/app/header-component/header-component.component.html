@@ -1,0 +1,9 @@
+<header>
+  <h1>{{ nombreApp }}</h1>
+  <p [style.color]="estaConectado ? 'green' : 'grey'">
+    Estudiante: {{ estudiante }}
+  </p>
+  <button (click)="toggleConexion()">
+    {{ estaConectado ? 'Desconectar' : 'Conectar' }}
+  </button>
+</header>
